@@ -1,0 +1,381 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  color: white;
+  background-color: black;
+}
+.nav h1 {
+  font-size: 2rem;
+  color: #e6533c;
+  font-style: italic;
+  font-weight: 800;
+}
+.navItems {
+  display: flex;
+  align-items: center;
+}
+.navItems li {
+  list-style: none;
+  margin: 0px 28px;
+}
+.btn {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.button {
+  background-color: #e6533c;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 2.8rem;
+}
+.button2 {
+  padding: 8px 20px;
+  border-radius: 2.8rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+}
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 10.4rem;
+  align-items: center;
+}
+.headerSection h1 {
+  font-size: 3.7rem;
+  font-weight: 900;
+}
+.headerSection span {
+  font-family: "Dancing Script", cursive;
+  font-weight: 400;
+  font-size: 5.7rem;
+}
+.headerSection p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff80;
+}
+.headerImg {
+  position: relative;
+}
+.headerText {
+  position: absolute;
+  top: 7rem;
+  left: 14rem;
+  background-color: #ffffff1a;
+  padding: 1.2rem 2rem;
+}
+.headerText span {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+.videoTutorial {
+  position: absolute;
+  bottom: 3rem;
+  left: -7rem;
+  background-color: #ffffff1a;
+  padding: 1.2rem 2rem;
+}
+.videoTutorial span {
+  font-size: 3rem;
+  font-weight: 900;
+  color: white;
+}
+/* change your habits */
+.Change_habit {
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 2rem;
+}
+.Habits {
+  text-align: center;
+}
+.Habits h1 {
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+.Habits p {
+  color: #ffffff80;
+}
+.card {
+  text-align: center;
+}
+.card img {
+  border-radius: 100%;
+}
+.card p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.card span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff80;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+}
+
+/* fitness */
+.fitness h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+.fitness p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff80;
+}
+.fitness {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222222;
+  color: #ffff;
+  padding: 20px 30px;
+  margin: 6.25rem 0;
+  border-radius: 18px;
+  gap: 10rem;
+}
+.fitness img {
+  width: 22rem;
+  height: 19rem;
+  border-radius: 18px;
+}
+
+/* calculator */
+
+.bmi {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+}
+.bmi h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.bmi p {
+  font-size: 14px;
+  font-weight: 900;
+  color: #ffffff80;
+}
+.tableForm {
+  background-color: #222222;
+  color: #ffff;
+  padding: 10px 0;
+}
+.tableChat {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 20px;
+}
+.tableChat h2 {
+  font-size: 24px;
+  font-weight: 900;
+}
+table,
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+  padding: 10px 15px;
+}
+table th {
+  font-size: 16px;
+  font-weight: 500;
+}
+table td {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff80;
+}
+.bmiCalculator h2 {
+  font-size: 28px;
+  font-weight: 900;
+}
+.bmiCalculator span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff80;
+}
+.form,
+input {
+  width: 39%;
+  padding: 14px 13px;
+  background-color: #ffffff1a;
+  gap: 20px;
+  color: #ffffff99;
+  margin: 5px;
+}
+.form,
+select {
+  width: 44%;
+  padding: 14px 13px;
+  background-color: #ffffff1a;
+  gap: 20px;
+  color: #ffffff99;
+}
+.select {
+  width: 89%;
+  margin: 4px 0;
+}
+.bmiCalculator button {
+  text-align: center;
+  margin: 20px;
+  padding: 20px 50px;
+  font-size: 28px;
+}
+.teem {
+  background-color: black;
+  color: #ffff;
+  padding-top: 10px;
+}
+
+.teem h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.teem p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff80;
+}
+.member {
+  background-color: #ffffff1a;
+  padding: 10px 20px;
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.member img {
+  height: 13rem;
+  width: 20rem;
+  border-radius: 18px;
+}
+.trainerCard {
+  position: relative;
+}
+.name {
+  position: absolute;
+  bottom: 10px;
+  left: 19px;
+}
+.name span {
+  color: #ffffff80;
+}
+
+/* footer */
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+}
+.footerText {
+  font-size: 3rem;
+  color: #e6533c;
+}
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+}
+
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+  text-align: center;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
