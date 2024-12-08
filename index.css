@@ -23,6 +23,9 @@ header {
   font-style: italic;
   font-weight: 800;
 }
+.menuIcons i {
+  display: none;
+}
 .navItems {
   display: flex;
   align-items: center;
@@ -378,4 +381,79 @@ select {
   color: #96a2b2;
   font-weight: 700;
   font-size: 13px;
+}
+
+/* media query */
+@media screen and (max-width: 576px) {
+  .navAllItems {
+    display: none;
+  }
+  .menuIcons i {
+    display: block;
+  }
+  .headerSection {
+    display: flex;
+    flex-direction: column;
+  }
+  .headerText span {
+    font-size: 1rem;
+  }
+  .headerText {
+    top: 11rem;
+    left: 7rem;
+  }
+  .videoTutorial span {
+    font-size: 2rem;
+  }
+  .videoTutorial {
+    bottom: 4rem;
+    left: 0rem;
+    padding: 0.2rem 3rem;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .fitness {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 0rem;
+  }
+  .fitness img {
+    width: 17rem;
+    height: 13rem;
+  }
+  .tableChat {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .form,
+  input {
+    width: 96%;
+  }
+  .form,
+  select {
+    width: 104%;
+    margin-left: 8px;
+  }
+  .select {
+    width: 103%;
+    margin: 6px 9px;
+  }
+  .member {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+  }
+  .member img {
+    height: 12rem;
+    width: 16rem;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 3rem;
+  }
 }
